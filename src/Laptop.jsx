@@ -41,6 +41,8 @@ const Laptop = () => {
       
     </div>
   )
+
+  //checking moneeeeeeeeee
 }
 
 export default Laptop
