@@ -6,7 +6,7 @@ import Stack from '@mui/material/Stack';
 import CardSec from '../CardSec'
 import FavoriteBorderSharpIcon from '@mui/icons-material/FavoriteBorderSharp';
 import HomeIcon from '@mui/icons-material/Home';
-import Modal from '../Modal'
+
 
 const Details = ({ setCartItem, setWishItem }) => {
     const { id } = useParams()
@@ -50,7 +50,7 @@ const Details = ({ setCartItem, setWishItem }) => {
     return (
 
         <div className='flex bg-blue-100 h-screen w-screen '>
-            {check && <Modal />}
+           
             {item && <div className='flex-col w-full '>
                 <h1 className='text-7xl flex justify-center mt-3'>{item.title}</h1>
                 <h1 className='text-xl flex justify-center mt-5'>{"Brand: " + item.brand}</h1>

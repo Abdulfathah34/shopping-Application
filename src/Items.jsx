@@ -54,7 +54,7 @@ const Items = ({ setProduct }) => {
                 <div className='bg-red-300 w-[260px] h-[260px] flex my-auto'>
                   <p className="my-auto mx-auto font-sans text-2xl">Top Offers</p>
                 </div>
-                {item.slice(1, index).map((instant, i) => {
+                {item.slice(1, index-1).map((instant, i) => {
 
                   return (<div className={`w-[260px] h-[260px] border border-1 rounded-md hover:scale-[1.10] hover:border-red-300 transition-all relative`} >
 
